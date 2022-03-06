@@ -26,3 +26,20 @@ Les packages Python suivantes :
 - Pandas
 - Scikit-learn
 - Seaborn
+- lightgbm
+- xgboost
+## Performances atteintes
+|   Algorithme choisi    |   Précision en entraînement (%)    |   Précision en test (%)    |
+|---    |:-:    |:-:    |
+|   KNN    |   100    |   63.74    |
+|   MLP    |   77.61    |   66.06    |
+|   SVM    |   68.8    |   69.7    |
+|   NuSVM    |    77.4   |    67.72   |
+|   Random Forrest    |    100   |    68.71   |
+|   Gaussian Naive Bayes    |   62.9    |    60.59   |
+|   Gradient Boosting    |   82.37    |    65.23   |
+|   LGBM    |    77.18   |    68.54   |
+|   XGBoost    |   100    |    65.73   |
+|   Gaussian Processes    |    61.69    |   60.26    |
+|   Extremely randomized tree classifiers    |       |       |
+|   Histogram-Based Gradient Boosting    |       |       |
