@@ -41,5 +41,6 @@ Les packages Python suivantes :
 |   LGBM    |    77.18   |    68.54   |
 |   XGBoost    |   100    |    65.73   |
 |   Gaussian Processes    |    61.69    |   60.26    |
-|   Extremely randomized tree classifiers    |       |       |
-|   Histogram-Based Gradient Boosting    |       |       |
+|   Extremely randomized tree classifiers    |   100    |   69.87    |
+|   Histogram-Based Gradient Boosting    |   85.5    |   64.07    |
+|   Adaboost    |   65.46   |   60.26    |
