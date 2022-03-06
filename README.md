@@ -28,7 +28,7 @@ Les packages Python suivantes :
 - Seaborn
 - lightgbm
 - xgboost
-## Performances atteintes
+## Performances atteintes avec les modèles choisi
 |   Algorithme choisi    |   Précision en entraînement (%)    |   Précision en test (%)    |
 |---    |:-:    |:-:    |
 |   KNN    |   100    |   63.74    |
@@ -44,3 +44,17 @@ Les packages Python suivantes :
 |   Extremely randomized tree classifiers    |   100    |   69.87    |
 |   Histogram-Based Gradient Boosting    |   85.5    |   64.07    |
 |   Adaboost    |   65.46   |   60.26    |
+## Performances atteintes avec un ensemble Learning 
+J'ai alors fait un mélange entre les modèles suivants : 
+- SVM
+- Random Forrest
+- LGBM
+- Extremely randomized tree classifiers
+- Multi Layer Perceptron 
+
+Pour me permettre d'avoir de meilleurs résultats et on a donc les résultats suivants sur l'ensemble de test : 
+
+|   Méthode de vote choisie    |   Précision en test (%)    | 
+|---    |:-:    |
+|   Hard voting    |   70.36   |
+|   Soft voting    |   70.03    |
