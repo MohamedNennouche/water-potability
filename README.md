@@ -58,3 +58,7 @@ Pour me permettre d'avoir de meilleurs résultats et on a donc les résultats su
 |---    |:-:    |
 |   Hard voting    |   70.36   |
 |   Soft voting    |   70.03    |
+## To-do
+- Ajouter des méthodes de sélections de caractéristiques 
+- Appliquer une analyse en composante principales pour améliorer les performances
+- Features engineering en utilisant des entrées polynomiale
