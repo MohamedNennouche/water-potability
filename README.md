@@ -45,19 +45,12 @@ The following Python packages:
 | Extremely randomized tree         | 69.37 | 64.54 | 64.89 |
 | Histogram-Based Gradient Boosting | 63.41 | 60.22 | 60.29 |
 ## Performances atteintes avec un ensemble Learning 
-J'ai alors fait un mélange entre les modèles suivants : 
-- SVM
-- Random Forrest
-- LGBM
-- Extremely randomized tree classifiers
-- Multi Layer Perceptron 
+On retrouve alors les résultats suivants :
 
-Pour me permettre d'avoir de meilleurs résultats et on a donc les résultats suivants sur l'ensemble de test : 
-
-|   Méthode de vote choisie    |   Précision en test (%)    | 
-|---    |:-:    |
-|   Hard voting    |   70.36   |
-|   Soft voting    |   70.03    |
+|   Voting method chosen    |   Accuracy (%)    |   F1-score (%)    |   ROC-Auc score (%)    |
+|---                                |:-:    |:-:    |:-:    |
+|   Hard voting    |   69.37    |   64.43    |   64.83    |
+|   Soft voting    |   68.71    |   64.72    |   64.81    |
 ## To-do
 - Ajouter des méthodes de sélections de caractéristiques 
 - Appliquer une analyse en composante principales pour améliorer les performances
