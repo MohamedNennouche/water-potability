@@ -51,11 +51,11 @@ The following results can be found:
 |---                                |:-:    |:-:    |:-:    |
 |   Hard voting    |   69.37    |   64.43    |   64.83    |
 |   Soft voting    |   68.71    |   64.72    |   64.81    |
-## Performances atteintes avec un resampling
+## Performance achieved with resampling
 
 ## To-do
-- [x] Ajouter un resampling et voir son effet
--[ ] Ajouter des méthodes de sélections de caractéristiques 
-- [ ] Appliquer une analyse en composante principales pour améliorer les performances
-- [ ] Features engineering en utilisant des entrées polynomiale
-- [ ] Compléter le README
+- [x] Add a resampling and see its effect
+- [ ] Add feature selection methods 
+- [ ] Apply principal component analysis to improve performance
+- [ ] Features engineering using polynomial inputs
+- [ ] Complete the README
