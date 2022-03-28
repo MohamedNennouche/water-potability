@@ -44,8 +44,8 @@ The following Python packages:
 | Gaussian Processes                | 67.72 | 63.42 | 63.66 |
 | Extremely randomized tree         | 69.37 | 64.54 | 64.89 |
 | Histogram-Based Gradient Boosting | 63.41 | 60.22 | 60.29 |
-## Performances atteintes avec un ensemble Learning 
-On retrouve alors les résultats suivants :
+## Performances achieved with a Learning set 
+The following results can be found:
 
 |   Voting method chosen    |   Accuracy (%)    |   F1-score (%)    |   ROC-Auc score (%)    |
 |---                                |:-:    |:-:    |:-:    |
